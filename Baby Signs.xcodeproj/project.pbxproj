@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		04552DDC254A5F1A008CB6C5 /* Baby_SignsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552DDB254A5F1A008CB6C5 /* Baby_SignsApp.swift */; };
-		04552DDE254A5F1A008CB6C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552DDD254A5F1A008CB6C5 /* ContentView.swift */; };
+		04552DDE254A5F1A008CB6C5 /* SignList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552DDD254A5F1A008CB6C5 /* SignList.swift */; };
 		04552DE0254A5F1B008CB6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04552DDF254A5F1B008CB6C5 /* Assets.xcassets */; };
 		04552DE3254A5F1B008CB6C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04552DE2254A5F1B008CB6C5 /* Preview Assets.xcassets */; };
 		04552DEE254A5F1B008CB6C5 /* Baby_SignsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552DED254A5F1B008CB6C5 /* Baby_SignsTests.swift */; };
 		04552DF9254A5F1B008CB6C5 /* Baby_SignsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552DF8254A5F1B008CB6C5 /* Baby_SignsUITests.swift */; };
+		04552E18254A671E008CB6C5 /* AddSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552E17254A671E008CB6C5 /* AddSign.swift */; };
+		04552E1D254A688E008CB6C5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552E1C254A688E008CB6C5 /* ImagePicker.swift */; };
+		04552E22254A6F73008CB6C5 /* ViewSign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552E21254A6F73008CB6C5 /* ViewSign.swift */; };
+		04552E2B254A778E008CB6C5 /* Signs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04552E29254A778E008CB6C5 /* Signs.xcdatamodeld */; };
+		04552E33254A7CCA008CB6C5 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552E32254A7CCA008CB6C5 /* ImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +40,7 @@
 /* Begin PBXFileReference section */
 		04552DD8254A5F1A008CB6C5 /* Baby Signs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Signs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04552DDB254A5F1A008CB6C5 /* Baby_SignsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_SignsApp.swift; sourceTree = "<group>"; };
-		04552DDD254A5F1A008CB6C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04552DDD254A5F1A008CB6C5 /* SignList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignList.swift; sourceTree = "<group>"; };
 		04552DDF254A5F1B008CB6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04552DE2254A5F1B008CB6C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04552DE4254A5F1B008CB6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		04552DF4254A5F1B008CB6C5 /* Baby SignsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby SignsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04552DF8254A5F1B008CB6C5 /* Baby_SignsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_SignsUITests.swift; sourceTree = "<group>"; };
 		04552DFA254A5F1B008CB6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04552E17254A671E008CB6C5 /* AddSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSign.swift; sourceTree = "<group>"; };
+		04552E1C254A688E008CB6C5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		04552E21254A6F73008CB6C5 /* ViewSign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSign.swift; sourceTree = "<group>"; };
+		04552E2A254A778E008CB6C5 /* Signs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Signs.xcdatamodel; sourceTree = "<group>"; };
+		04552E32254A7CCA008CB6C5 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				04552DDB254A5F1A008CB6C5 /* Baby_SignsApp.swift */,
-				04552DDD254A5F1A008CB6C5 /* ContentView.swift */,
+				04552DDD254A5F1A008CB6C5 /* SignList.swift */,
+				04552E29254A778E008CB6C5 /* Signs.xcdatamodeld */,
 				04552DDF254A5F1B008CB6C5 /* Assets.xcassets */,
 				04552DE4254A5F1B008CB6C5 /* Info.plist */,
 				04552DE1254A5F1B008CB6C5 /* Preview Content */,
+				04552E17254A671E008CB6C5 /* AddSign.swift */,
+				04552E1C254A688E008CB6C5 /* ImagePicker.swift */,
+				04552E21254A6F73008CB6C5 /* ViewSign.swift */,
+				04552E32254A7CCA008CB6C5 /* ImageExtensions.swift */,
 			);
 			path = "Baby Signs";
 			sourceTree = "<group>";
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04552DDE254A5F1A008CB6C5 /* ContentView.swift in Sources */,
+				04552E2B254A778E008CB6C5 /* Signs.xcdatamodeld in Sources */,
+				04552DDE254A5F1A008CB6C5 /* SignList.swift in Sources */,
+				04552E18254A671E008CB6C5 /* AddSign.swift in Sources */,
+				04552E1D254A688E008CB6C5 /* ImagePicker.swift in Sources */,
+				04552E22254A6F73008CB6C5 /* ViewSign.swift in Sources */,
+				04552E33254A7CCA008CB6C5 /* ImageExtensions.swift in Sources */,
 				04552DDC254A5F1A008CB6C5 /* Baby_SignsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -580,6 +600,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04552E29254A778E008CB6C5 /* Signs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04552E2A254A778E008CB6C5 /* Signs.xcdatamodel */,
+			);
+			currentVersion = 04552E2A254A778E008CB6C5 /* Signs.xcdatamodel */;
+			path = Signs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04552DD0254A5F1A008CB6C5 /* Project object */;
 }
